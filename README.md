@@ -28,7 +28,7 @@ Then to sync up:
 
     repo sync -f -c --no-clone-bundle build/make
     . build/envsetup.sh
-    reposync -f -c --no-tags --no-clone-bundle --optimized-fetch --force-sync --prune
+    repo sync -f -c -jx --no-tags --no-clone-bundle --optimized-fetch --force-sync --prune
 
 Build commands are:
 ----------------
